@@ -9,5 +9,5 @@ Este projeto é um simples jogo da velha (ou "tic-tac-toe") implementado com HTM
 - Detecção de Vencedor: Identifica automaticamente se algum jogador venceu ou se ocorreu um empate.
 - Reinício Automático: Reinicia o jogo após um vencedor ser declarado ou quando ocorre um empate.
 
-Referências:
+### Referências:
 Criando Jogo da Velha com JavaScript. Disponível em: <https://youtu.be/ohl1tK-azxw>. Acesso em: 14 nov. 2024.
