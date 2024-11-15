@@ -1,11 +1,11 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: cursive;
 }
 
-body{
+body {
   height: 100vh;
   display: flex;
   align-items: center;
@@ -13,33 +13,44 @@ body{
   background-image: #f7f7f7;
 }
 
-main{
+main {
   display: flex;
   flex-direction: column;
   gap: 5px;
 }
 
-h1{
+h1 {
   text-align: center;
 }
 
-hr{
+hr {
   font-weight: bold;
   height: 3px;
   background: 10px;
   margin-bottom: 10px;
 }
 
-.game{
+.mode-selection {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.game {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-.game button{
+.game button {
   width: 100px;
   height: 100px;
   margin: 5px;
   cursor: pointer;
   font-size: 50px;
   background: white;
+}
+
+.game-message {
+  text-align: center;
 }

@@ -5,14 +5,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>Jogo da velha</title>
+  <title>Jogo da Velha</title>
 </head>
 
 <body>
   <main>
     <h1>Jogo da Velha</h1>
     <hr>
-    <div class="game">
+    <div class="mode-selection">
+      <h2>Escolha o modo de jogo:</h2>
+      <button id="multiplayer-btn">Multiplayer</button>
+      <button id="singleplayer-btn">Contra a máquina</button>
+    </div>
+    <div class="game hidden">
       <button data-i="1"></button>
       <button data-i="2"></button>
       <button data-i="3"></button>
@@ -24,6 +29,7 @@
       <button data-i="9"></button>
     </div>
     <h2 class="currentPlayer"></h2>
+    <h2 class="game-message"></h2>
   </main>
   <script src="script.js"></script>
 </body>
